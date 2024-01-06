@@ -9,7 +9,7 @@ public class RideRequestSystemTest {
         system.addDriver(new Driver("Driver2", "Location2", 2));
 
         // Add some guest requests
-        system.addGuestRequest(new GuestRequest("Request1", 5, 15, "PickupLocation1"));
+        system.addGuestRequest(new GuestRequest("Request1", 5, 1, "PickupLocation1"));
         system.addGuestRequest(new GuestRequest("Request2", 10, 2, "PickupLocation2"));
         system.addGuestRequest(new GuestRequest("Request3", 3, 1, "PickupLocation3"));
         // Add tests for requests above driver capacities

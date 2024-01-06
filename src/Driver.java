@@ -20,7 +20,7 @@ public class Driver {
             localQueue.add(request);
         } else {
             // Handle the case where the vehicle is at capacity
-            System.out.println("Cannot add more guests. Vehicle at capacity.");
+            // System.out.println("Cannot add more guests. Vehicle at capacity.");
         }
     }
 

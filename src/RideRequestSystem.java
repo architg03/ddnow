@@ -44,8 +44,9 @@ public class RideRequestSystem {
             GuestRequest request = findOptimalRequestForDriver(driver);
             if (request != null) {
                 driver.addGuestRequestToQueue(request);
-                guestRequests.remove(request); // Assuming a method to remove a specific request
+                guestRequests.remove(request);
             } else {
+//                System.out.println("No suitable request found for this driver");
                 break; // No suitable request found for this driver
             }
         }
